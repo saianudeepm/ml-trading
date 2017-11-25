@@ -1,4 +1,4 @@
-#1. Using Virtualenv
+# 1. Using Virtualenv
 
 ### Install virtualenv
 ```pip install virtualenv```
@@ -28,7 +28,7 @@ function frameworkpython {
 export PATH=$PATH:~/.virtualenv
 ```
 
-#2. Using VirtualEnvWrapper 
+# 2. Using VirtualEnvWrapper 
 
 ### Installing virtualenvwrapper
 ```sudo pip install virtualenvwrapper --ignore-installed six```
