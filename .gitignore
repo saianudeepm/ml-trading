@@ -91,3 +91,7 @@ ENV/
 
 # Ignore .idea
 .idea
+
+# ignore quandl api
+./data/quandl_api_key.txt
+./data/states.pickle

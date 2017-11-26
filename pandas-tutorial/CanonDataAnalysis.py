@@ -7,20 +7,8 @@ pd.set_option('display.max_columns', 500)
 pd.set_option('display.width', 1000)
 
 '''
-url = 'https://simple.wikipedia.org/wiki/List_of_U.S._states'
-
-df = pd.read_html(url)
-print df[0][0]
-
-
-#slicing
-for abbv in df[0][0][1:] :
-    print str(abbv)
-
-
 #Merging DataFrames 
 pd.merge(df1, df2, on=[])
-
 '''
 
 # Read from wikipedia
