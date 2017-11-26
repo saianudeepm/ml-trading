@@ -2,8 +2,6 @@
 import os
 import pandas as pd
 
-
-
 current_path = os.path.dirname(os.path.realpath(__file__))
 input_file_path = os.path.join(current_path, "../data/ZILLOW-Z94538_MLPAH.csv")
 
@@ -27,4 +25,3 @@ Rename columns
 df2 = pd.read_csv(input_file_path)
 df2.rename(columns={'Value': 'Fremont_HPI'}, inplace=True)
 '''
-
