@@ -9,7 +9,7 @@
 ### Switch to env
 ```source venv/bin/activate```
  
-### Workaround to launching python as a framework in virtualenv
+### Option1> Workaround to launching python as a framework in virtualenv
 reference: [working with matplotlib in MacOSX](https://matplotlib.org/faq/osx_framework.html#working-with-matplotlib-on-osx)
 
 * Switch to the virtualenv
@@ -27,6 +27,12 @@ function frameworkpython {
 
 export PATH=$PATH:~/.virtualenv
 ```
+### Option2> Workaround for macosx in virtual env by setting backend (preferred)
+```
+   workon <envName>
+   echo "backend: TkAgg" >> ~/.matplotlib/matplotlibrc
+```
+
 
 # 2. Using VirtualEnvWrapper 
 
@@ -50,4 +56,10 @@ export PATH=$PATH:~/.virtualenv
 ### Switch to an environment using virtualenvwrapper
 ```
     workon <envName>
+```
+
+### Workaround for using matplotlib in macosx virtual env by setting backend
+```
+   workon <envName>
+   echo "backend: TkAgg" >> ~/.matplotlib/matplotlibrc
 ```
