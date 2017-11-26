@@ -1,4 +1,8 @@
 numpy
 pandas
 pandas_datareader
+lxml
+html5lib
+beautifulsoup4
 matplotlib
+quandl
